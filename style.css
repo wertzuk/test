@@ -41,29 +41,39 @@ html, body {
    
     display: flex;
     justify-content: center; 
-    flex-wrap: wrap;
-    align-items: start;
+    flex-wrap: wrap;  
+    align-content: center; 
     background-image: url("bilder/bg1.png"); 
     position: fixed;
     width: 100%;
     height: 100%;
 }
 
-/* .item-row { 
-    display: flex;
-    border: solid 2px #385514;
-    justify-content: space-around;
-   
-}*/
-
 .flexbox-item {
+    flex: 1 0 20%;
     margin: 10px;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(139, 38, 38);
+    height: 300px;
+    background-color: rgb(102, 6, 6);
     opacity: 0.7;
 }
 
 .flexbox-item:hover {
     opacity: 1;
 }
+
+.flexbox-item-1 {
+    margin-left: 15%;
+}
+
+.flexbox-item-4 {
+    margin-left: 15%;
+}
+
+.flexbox-item-3{
+    margin-right: 15%;
+}
+
+.flexbox-item-6{
+    margin-right: 15%;
+}
+
