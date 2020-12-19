@@ -42,3 +42,14 @@ html, body {
     background-image: url("bilder/bg1.png");  
     
 }
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(139, 38, 38);
+}
