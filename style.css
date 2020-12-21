@@ -10,9 +10,10 @@ html, body {
 
 
 .main-header {
-    background-color: #533E3E; 
-   
+    background-color: #533E3E;  
 }
+
+
 
 .nav ul {
     margin:0; 
@@ -33,11 +34,19 @@ html, body {
     background-color: saddlebrown;
 }
 
+.main-header img {
+    width: 30px;
+    height: 30px;
+    float: right;
+    margin-top: 5px;
+}
 
 .acc-name {
     float: right;
-    margin-right: 25px;
+    margin-right: 50px; 
     color: white;
+    padding: .8em;
+    font-style: italic;
 }
 
 .container {
